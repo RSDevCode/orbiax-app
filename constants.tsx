@@ -13,11 +13,7 @@ import {
   Stethoscope,
   Scale,
   Banknote,
-  UserPlus,
-  Rocket,
-  Wrench,
-  Headphones,
-  Smartphone
+  Wrench
 } from 'lucide-react';
 import { Benefit, PricingPlan, Service, Step, Testimonial } from './types';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SERVICES, WHATSAPP_LINK } from '../constants';
+import { SERVICES } from '../constants';
 import { ArrowUpRight } from 'lucide-react';
 
 interface ServicesProps {
