@@ -1,6 +1,6 @@
 import React from 'react';
 import { COMPANY_NAME, WHATSAPP_LINK } from '../constants';
-import { Instagram, Linkedin, Mail } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (page: 'home' | 'services') => void;
