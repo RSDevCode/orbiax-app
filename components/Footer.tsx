@@ -63,7 +63,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div>
             <h4 className="font-bold text-slate-900 mb-4">Contato</h4>
             <div className="flex gap-4 mb-4">
-                <a href="#" className="text-slate-400 hover:text-brand-600"><Instagram className="w-5 h-5"/></a>
+                <a href="https://www.instagram.com/orbiax.ia?igsh=eGZnNzQwanF3aGlj" className="text-slate-400 hover:text-brand-600"><Instagram className="w-5 h-5"/></a>
                 <a href="https://www.linkedin.com/in/rafael-sanzio-86ba61137/" className="text-slate-400 hover:text-brand-600"><Linkedin className="w-5 h-5"/></a>
             </div>
             <p className="text-slate-500 text-sm">
