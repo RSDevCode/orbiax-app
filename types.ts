@@ -23,6 +23,10 @@ export interface Service {
   description: string;
   icon: LucideIcon;
   tags: string[];
+  highlight?: boolean;          // ⭐ novo
+  promoPrice?: string;         // ⭐ novo
+  originalPrice?: string;      // ⭐ novo
+  promoLabel?: string;         // ⭐ novo
 }
 
 export interface PricingPlan {

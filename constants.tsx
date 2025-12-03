@@ -78,16 +78,14 @@ export const BENEFITS: Benefit[] = [
 
 export const SERVICES: Service[] = [
   {
-    title: "Automação de WhatsApp",
-    description: "Centralize leads, consultas e confirmações automáticas no app mais usado do Brasil.",
-    icon: MessageSquare,
-    tags: ["Leads", "Vendas", "Atendimento"]
-  },
-  {
-    title: "Chatbot com IA",
-    description: "Atendimento 24/7 para tirar dúvidas básicas, realizar triagem e qualificar clientes.",
+    title: "Automação de WhatsApp com Inteligencia Artificial",
+    description: "Atendimento 24/7 para sanar dúvidas, realizar triagem, qualificar clientes e impulsionar vendas automaticamente.",
     icon: Bot,
-    tags: ["IA", "Suporte", "Triagem"]
+    tags: ["Leads", "Vendas", "Atendimento","IA", "Suporte", "Triagem"],
+    highlight: true,                       // ⭐ novo
+    promoPrice: "R$ 999,99",                  // ⭐ novo
+    originalPrice: "R$ 2500,00",               // ⭐ novo
+    promoLabel: "Mais vendido • Promoção de fim de ano" // ⭐ novo
   },
   {
     title: "Lembretes e Confirmações",
@@ -96,8 +94,8 @@ export const SERVICES: Service[] = [
     tags: ["Agenda", "No-show", "Avisos"]
   },
   {
-    title: "Nutrição de Leads",
-    description: "Funil de vendas automatizado que aquece contatos frios e recupera orçamentos.",
+    title: "Captação de Dados de Leads",
+    description: "Colete informações importantes de potenciais clientes automaticamente via chat/site.",
     icon: Zap,
     tags: ["CRM", "Marketing", "Conversão"]
   },
@@ -135,34 +133,39 @@ export const SERVICES: Service[] = [
 
 export const PLANS: PricingPlan[] = [
   {
-    name: "Projeto Pontual",
-    description: "Ideal para resolver um problema específico da sua operação com escopo fechado.",
+    name: "Automação com Setup + Manutenção",
+    description:
+      "Modelo simples e transparente: você paga apenas pelo desenvolvimento inicial e depois uma taxa mensal para manter tudo funcionando com segurança.",
     price: "Sob Medida",
-    monthly: "Pagamento único ou parcelado",
-    features: [
-      "Escopo definido no início",
-      "Entrega focada na solução",
-      "Treinamento da equipe",
-      "Sem custo mensal recorrente"
-    ],
-    ctaText: "Cotar Projeto"
-  },
-  {
-    name: "Automação Contínua",
-    description: "Para empresas que buscam evolução constante e automação de múltiplos setores.",
-    price: "Sob Medida",
-    monthly: "Fee Mensal + Setup",
+    monthly: "Taxa Mensal de Manutenção",
     isPopular: true,
     features: [
-      "Desenvolvimento contínuo",
-      "Suporte prioritário",
-      "Manutenção das automações",
-      "Monitoramento de performance",
-      "Ajustes ilimitados"
+      "Pagamento único ou parcelado do setup",
+      "Hospedagem e monitoramento no servidor",
+      "Correções e manutenção contínua",
+      "Garantia de funcionamento 24/7",
+      "Atualizações essenciais incluídas",
+      "Infraestrutura e estabilidade asseguradas"
     ],
-    ctaText: "Consultar Planos"
+    ctaText: "Solicitar Orçamento"
+  },
+  {
+    name: "Manutenção & Operação",
+    description: "Para quem já possui uma automação e quer melhorar sua operação.",
+    price: "A partir de R$ X/mês",
+    monthly: "Sem custo de setup",
+    isPopular: false,
+    features: [
+      "Monitoramento semanal do sistema",
+      "Correções e pequenos ajustes",
+      "Melhorias leves incluídas",
+      "Garantia de estabilidade do serviço",
+      "Atendimento prioritário"
+    ],
+    ctaText: "Falar com Especialista"
   }
 ];
+
 
 export const TESTIMONIALS: Testimonial[] = [
   {
